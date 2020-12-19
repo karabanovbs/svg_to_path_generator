@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      svg_to_path_generator:
+        enabled: true
+
+builders:
+  svg_to_path_generator:
+    target: ":svg_to_path_generator"
+    import: "package:svg_to_path_generator/builder.dart"
+    builder_factories: ["svgToPathGen"]
+    build_extensions: {".dart": [".svg_to_path_generator.g.part"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]
