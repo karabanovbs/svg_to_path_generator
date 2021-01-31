@@ -1,6 +1,6 @@
 name: svg_to_path_generator
 description: Svg to path generator
-version: 0.0.1
+version: 0.0.2
 author:
 homepage:
 
@@ -9,20 +9,14 @@ environment:
 #  flutter: ">=1.17.0"
 
 dependencies:
-  build: ^1.6.0
+  build: ^1.6.1
   source_gen: ^0.9.10+1
-  build_runner: ^1.10.11
+  build_runner: ^1.11.0
   xml: ^5.0.0-nullsafety.0
   path_parsing: ^0.2.0-nullsafety.0
   svg_to_path_annotation:
-    path: ../svg_to_path_annotation
-  flutter_svg:
-    path: /Users/boriskarabanov/dev/projects/main/flutter_svg
-#  flutter:
-#    sdk: flutter
+    git:
+      url: https://github.com/karabanovbs/svg_to_path_generator
+      path: packages/svg_to_path_annotation
 
 dev_dependencies:
-#  flutter_test:
-#    sdk: flutter
-
-#flutter:

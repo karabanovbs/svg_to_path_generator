@@ -9,7 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.1
   svg_to_path_annotation:
     path: ../../svg_to_path_annotation
 
@@ -18,7 +17,7 @@ dev_dependencies:
     sdk: flutter
   integration_test:
     sdk: flutter
-  build_runner: ^1.10.11
+  build_runner: ^1.11.0
   svg_to_path_generator:
     path: ../../svg_to_path_generator
 

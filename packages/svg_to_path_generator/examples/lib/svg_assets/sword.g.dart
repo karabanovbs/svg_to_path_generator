@@ -62,514 +62,674 @@ part of 'sword.dart';
 //     </g>
 // </svg>
 
-class _SwordSvg extends CustomPainter {
+class _SwordSvgPainter extends CustomPainter {
+  final originalHeight = 512;
+  final originalWidth = 512;
   @override
   void paint(Canvas canvas, Size size) {
     canvas.scale(size.width / 512, size.height / 512);
 
-    // element with tag: g not supported
-    Paint paint37 = Paint();
-    paint37.color = Color(0xFF687780).withOpacity(1);
-    var path37 = Path();
-    path37.fillType = null;
+    group0(canvas, size);
+  }
 
-    path37.moveTo(512.0, 256.0);
-    path37.cubicTo(512.0, 397.38, 397.38, 512.0, 256.0, 512.0);
-    path37.cubicTo(206.18, 512.0, 159.69, 497.77, 120.36000000000001, 473.15);
-    path37.cubicTo(92.00000000000001, 455.39, 86.64000000000001,
+  group0(Canvas canvas, Size size) {
+    path0group0(canvas, size);
+    group1group0(canvas, size);
+    path2group0(canvas, size);
+    path3group0(canvas, size);
+    path4group0(canvas, size);
+    path5group0(canvas, size);
+    group6group0(canvas, size);
+    group7group0(canvas, size);
+  }
+
+  path0group0(Canvas canvas, Size size) {
+    Paint paint0group0 = Paint();
+    paint0group0.color = Color(0xFF687780);
+    var path0group0 = Path();
+    path0group0.moveTo(512.0, 256.0);
+    path0group0.cubicTo(512.0, 397.38, 397.38, 512.0, 256.0, 512.0);
+    path0group0.cubicTo(
+        206.18, 512.0, 159.69, 497.77, 120.36000000000001, 473.15);
+    path0group0.cubicTo(92.00000000000001, 455.39, 86.64000000000001,
         416.47999999999996, 67.18, 389.35999999999996);
-    path37.cubicTo(56.67000000000001, 374.71, 28.38000000000001,
+    path0group0.cubicTo(56.67000000000001, 374.71, 28.38000000000001,
         374.66999999999996, 21.110000000000007, 357.93999999999994);
-    path37.cubicTo(
+    path0group0.cubicTo(
         7.5300000000000065,
         326.69999999999993,
         7.105427357601002e-15,
         292.22999999999996,
         7.105427357601002e-15,
         255.99999999999994);
-    path37.cubicTo(7.105427357601002e-15, 114.61999999999995, 114.62,
+    path0group0.cubicTo(7.105427357601002e-15, 114.61999999999995, 114.62,
         -5.684341886080802e-14, 256.0, -5.684341886080802e-14);
-    path37.cubicTo(397.38, -5.684341886080802e-14, 512.0, 114.61999999999995,
-        512.0, 255.99999999999994);
-    path37.close();
+    path0group0.cubicTo(397.38, -5.684341886080802e-14, 512.0,
+        114.61999999999995, 512.0, 255.99999999999994);
+    path0group0.close();
 
-    canvas.drawPath(path37, paint37);
+    canvas.drawPath(path0group0, paint0group0);
+  }
 
-    // element with tag: g not supported
-    Paint paint1057 = Paint();
-    paint1057.color = Color(0xFF95d6a4).withOpacity(1);
-    var path1057 = Path();
-    path1057.fillType = null;
+  group1group0(Canvas canvas, Size size) {
+    path0group1group0(canvas, size);
+    path1group1group0(canvas, size);
+    path2group1group0(canvas, size);
+    path3group1group0(canvas, size);
+    path4group1group0(canvas, size);
+    path5group1group0(canvas, size);
+    path6group1group0(canvas, size);
+    path7group1group0(canvas, size);
+    path8group1group0(canvas, size);
+    group9group1group0(canvas, size);
+  }
 
-    path1057.moveTo(185.538, 383.427);
-    path1057.cubicTo(193.21800000000002, 375.747, 193.21800000000002,
+  path0group1group0(Canvas canvas, Size size) {
+    Paint paint0group1group0 = Paint();
+    paint0group1group0.color = Color(0xFF95d6a4);
+    var path0group1group0 = Path();
+    path0group1group0.moveTo(185.538, 383.427);
+    path0group1group0.cubicTo(193.21800000000002, 375.747, 193.21800000000002,
         363.29600000000005, 185.538, 355.61600000000004);
-    path1057.lineTo(131.55100000000002, 301.629);
-    path1057.cubicTo(123.87100000000001, 293.949, 111.42000000000002, 293.949,
-        103.74000000000001, 301.629);
-    path1057.cubicTo(
+    path0group1group0.lineTo(131.55100000000002, 301.629);
+    path0group1group0.cubicTo(123.87100000000001, 293.949, 111.42000000000002,
+        293.949, 103.74000000000001, 301.629);
+    path0group1group0.cubicTo(
         98.427, 306.942, 96.792, 314.538, 98.83000000000001, 321.259);
-    path1057.cubicTo(92.10900000000001, 319.221, 84.513, 320.856,
+    path0group1group0.cubicTo(92.10900000000001, 319.221, 84.513, 320.856,
         79.20000000000002, 326.16900000000004);
-    path1057.cubicTo(73.88700000000001, 331.482, 72.25200000000001,
+    path0group1group0.cubicTo(73.88700000000001, 331.482, 72.25200000000001,
         339.07800000000003, 74.29000000000002, 345.79900000000004);
-    path1057.cubicTo(67.56900000000002, 343.761, 59.97300000000002,
+    path0group1group0.cubicTo(67.56900000000002, 343.761, 59.97300000000002,
         345.39500000000004, 54.660000000000025, 350.70900000000006);
-    path1057.cubicTo(46.980000000000025, 358.38900000000007, 46.980000000000025,
-        370.84000000000003, 54.660000000000025, 378.52000000000004);
-    path1057.lineTo(108.64700000000002, 432.50700000000006);
-    path1057.cubicTo(116.32700000000003, 440.18700000000007, 128.77800000000002,
-        440.18700000000007, 136.45800000000003, 432.50700000000006);
-    path1057.cubicTo(141.77100000000002, 427.1940000000001, 143.40600000000003,
-        419.59800000000007, 141.36800000000002, 412.87700000000007);
-    path1057.cubicTo(148.08900000000003, 414.9150000000001, 155.68500000000003,
-        413.28100000000006, 160.99800000000002, 407.96700000000004);
-    path1057.cubicTo(166.311, 402.65400000000005, 167.94600000000003,
+    path0group1group0.cubicTo(
+        46.980000000000025,
+        358.38900000000007,
+        46.980000000000025,
+        370.84000000000003,
+        54.660000000000025,
+        378.52000000000004);
+    path0group1group0.lineTo(108.64700000000002, 432.50700000000006);
+    path0group1group0.cubicTo(
+        116.32700000000003,
+        440.18700000000007,
+        128.77800000000002,
+        440.18700000000007,
+        136.45800000000003,
+        432.50700000000006);
+    path0group1group0.cubicTo(
+        141.77100000000002,
+        427.1940000000001,
+        143.40600000000003,
+        419.59800000000007,
+        141.36800000000002,
+        412.87700000000007);
+    path0group1group0.cubicTo(
+        148.08900000000003,
+        414.9150000000001,
+        155.68500000000003,
+        413.28100000000006,
+        160.99800000000002,
+        407.96700000000004);
+    path0group1group0.cubicTo(166.311, 402.65400000000005, 167.94600000000003,
         395.05800000000005, 165.90800000000002, 388.33700000000005);
-    path1057.cubicTo(172.62900000000002, 390.37500000000006, 180.22500000000002,
-        388.74100000000004, 185.538, 383.427);
-    path1057.close();
+    path0group1group0.cubicTo(172.62900000000002, 390.37500000000006,
+        180.22500000000002, 388.74100000000004, 185.538, 383.427);
+    path0group1group0.close();
 
-    canvas.drawPath(path1057, paint1057);
+    canvas.drawPath(path0group1group0, paint0group1group0);
+  }
 
-    Paint paint2876 = Paint();
-    paint2876.color = Color(0xFF78c2a4).withOpacity(1);
-    var path2876 = Path();
-    path2876.fillType = null;
-
-    path2876.moveTo(78.893, 394.604);
-    path2876.cubicTo(
+  path1group1group0(Canvas canvas, Size size) {
+    Paint paint1group1group0 = Paint();
+    paint1group1group0.color = Color(0xFF78c2a4);
+    var path1group1group0 = Path();
+    path1group1group0.moveTo(78.893, 394.604);
+    path1group1group0.cubicTo(
         78.897, 399.63399999999996, 80.816, 404.669, 84.657, 408.51);
-    path2876.lineTo(54.664, 378.517);
-    path2876.cubicTo(50.823, 374.676, 48.904, 369.641, 48.9, 364.611);
-    path2876.cubicTo(
+    path1group1group0.lineTo(54.664, 378.517);
+    path1group1group0.cubicTo(50.823, 374.676, 48.904, 369.641, 48.9, 364.611);
+    path1group1group0.cubicTo(
         48.903999999999996, 359.581, 50.823, 354.546, 54.664, 350.705);
-    path2876.cubicTo(
+    path1group1group0.cubicTo(
         59.977000000000004, 345.392, 67.574, 343.756, 74.293, 345.794);
-    path2876.cubicTo(
+    path1group1group0.cubicTo(
         73.272, 342.436, 73.17, 338.85699999999997, 73.99000000000001, 335.455);
-    path2876.cubicTo(74.81, 332.05199999999996, 76.54400000000001,
+    path1group1group0.cubicTo(74.81, 332.05199999999996, 76.54400000000001,
         328.82599999999996, 79.20100000000001, 326.169);
-    path2876.cubicTo(84.51400000000001, 320.856, 92.111, 319.21999999999997,
-        98.83000000000001, 321.258);
-    path2876.cubicTo(97.81300000000002, 317.89599999999996, 97.71100000000001,
-        314.317, 98.531, 310.91499999999996);
-    path2876.cubicTo(99.351, 307.51199999999994, 101.08500000000001,
+    path1group1group0.cubicTo(84.51400000000001, 320.856, 92.111,
+        319.21999999999997, 98.83000000000001, 321.258);
+    path1group1group0.cubicTo(97.81300000000002, 317.89599999999996,
+        97.71100000000001, 314.317, 98.531, 310.91499999999996);
+    path1group1group0.cubicTo(99.351, 307.51199999999994, 101.08500000000001,
         304.28599999999994, 103.742, 301.62899999999996);
-    path2876.cubicTo(111.42500000000001, 293.94599999999997, 123.87100000000001,
-        293.94599999999997, 131.554, 301.62899999999996);
-    path2876.lineTo(161.547, 331.62199999999996);
-    path2876.cubicTo(153.864, 323.93899999999996, 141.418, 323.93899999999996,
-        133.73499999999999, 331.62199999999996);
-    path2876.cubicTo(131.07799999999997, 334.27899999999994, 129.344,
+    path1group1group0.cubicTo(111.42500000000001, 293.94599999999997,
+        123.87100000000001, 293.94599999999997, 131.554, 301.62899999999996);
+    path1group1group0.lineTo(161.547, 331.62199999999996);
+    path1group1group0.cubicTo(153.864, 323.93899999999996, 141.418,
+        323.93899999999996, 133.73499999999999, 331.62199999999996);
+    path1group1group0.cubicTo(131.07799999999997, 334.27899999999994, 129.344,
         337.50499999999994, 128.52399999999997, 340.90799999999996);
-    path2876.cubicTo(127.70399999999995, 344.311, 127.80699999999997, 347.89,
-        128.82299999999998, 351.251);
-    path2876.cubicTo(122.10399999999998, 349.214, 114.50699999999998, 350.849,
-        109.19399999999997, 356.162);
-    path2876.cubicTo(106.53699999999998, 358.81899999999996, 104.80299999999997,
-        362.04499999999996, 103.98299999999998, 365.448);
-    path2876.cubicTo(103.16299999999998, 368.851, 103.26599999999998, 372.43,
-        104.28599999999997, 375.787);
-    path2876.cubicTo(97.56699999999998, 373.74899999999997, 89.96999999999997,
-        375.385, 84.65699999999997, 380.698);
-    path2876.cubicTo(80.81599999999997, 384.53999999999996, 78.89699999999996,
-        389.57399999999996, 78.89299999999997, 394.604);
-    path2876.close();
+    path1group1group0.cubicTo(127.70399999999995, 344.311, 127.80699999999997,
+        347.89, 128.82299999999998, 351.251);
+    path1group1group0.cubicTo(122.10399999999998, 349.214, 114.50699999999998,
+        350.849, 109.19399999999997, 356.162);
+    path1group1group0.cubicTo(106.53699999999998, 358.81899999999996,
+        104.80299999999997, 362.04499999999996, 103.98299999999998, 365.448);
+    path1group1group0.cubicTo(103.16299999999998, 368.851, 103.26599999999998,
+        372.43, 104.28599999999997, 375.787);
+    path1group1group0.cubicTo(97.56699999999998, 373.74899999999997,
+        89.96999999999997, 375.385, 84.65699999999997, 380.698);
+    path1group1group0.cubicTo(80.81599999999997, 384.53999999999996,
+        78.89699999999996, 389.57399999999996, 78.89299999999997, 394.604);
+    path1group1group0.close();
 
-    canvas.drawPath(path2876, paint2876);
+    canvas.drawPath(path1group1group0, paint1group1group0);
+  }
 
-    Paint paint5113 = Paint();
-    paint5113.color = Color(0xFFf9f6f9).withOpacity(1);
-    var path5113 = Path();
-    path5113.fillType = null;
-
-    path5113.moveTo(481.045, 80.925);
-    path5113.lineTo(476.29400000000004, 38.721);
-    path5113.cubicTo(474.646, 24.078999999999997, 463.08900000000006,
+  path2group1group0(Canvas canvas, Size size) {
+    Paint paint2group1group0 = Paint();
+    paint2group1group0.color = Color(0xFFf9f6f9);
+    var path2group1group0 = Path();
+    path2group1group0.moveTo(481.045, 80.925);
+    path2group1group0.lineTo(476.29400000000004, 38.721);
+    path2group1group0.cubicTo(474.646, 24.078999999999997, 463.08900000000006,
         12.521999999999995, 448.44700000000006, 10.873999999999995);
-    path5113.lineTo(406.24300000000005, 6.122999999999995);
-    path5113.cubicTo(396.6940000000001, 5.047999999999995, 387.17600000000004,
-        8.378999999999994, 380.38100000000003, 15.173999999999996);
-    path5113.lineTo(131.27900000000002, 264.275);
-    path5113.lineTo(222.89300000000003, 355.889);
-    path5113.lineTo(471.995, 106.787);
-    path5113.cubicTo(
+    path2group1group0.lineTo(406.24300000000005, 6.122999999999995);
+    path2group1group0.cubicTo(
+        396.6940000000001,
+        5.047999999999995,
+        387.17600000000004,
+        8.378999999999994,
+        380.38100000000003,
+        15.173999999999996);
+    path2group1group0.lineTo(131.27900000000002, 264.275);
+    path2group1group0.lineTo(222.89300000000003, 355.889);
+    path2group1group0.lineTo(471.995, 106.787);
+    path2group1group0.cubicTo(
         478.789, 99.99300000000001, 482.12, 90.474, 481.045, 80.92500000000001);
-    path5113.close();
+    path2group1group0.close();
 
-    canvas.drawPath(path5113, paint5113);
+    canvas.drawPath(path2group1group0, paint2group1group0);
+  }
 
-    Paint paint5963 = Paint();
-    paint5963.color = Color(0xFFdddaec).withOpacity(1);
-    var path5963 = Path();
-    path5963.fillType = null;
-
-    path5963.moveTo(426.033, 61.135);
-    path5963.cubicTo(
+  path3group1group0(Canvas canvas, Size size) {
+    Paint paint3group1group0 = Paint();
+    paint3group1group0.color = Color(0xFFdddaec);
+    var path3group1group0 = Path();
+    path3group1group0.moveTo(426.033, 61.135);
+    path3group1group0.cubicTo(
         421.365, 56.467, 413.796, 56.467, 409.12800000000004, 61.135);
-    path5963.lineTo(174.63200000000003, 295.63100000000003);
-    path5963.lineTo(191.53700000000003, 312.53600000000006);
-    path5963.lineTo(426.033, 78.04000000000005);
-    path5963.cubicTo(430.701, 73.37100000000005, 430.701, 65.80300000000005,
-        426.033, 61.13500000000005);
-    path5963.close();
+    path3group1group0.lineTo(174.63200000000003, 295.63100000000003);
+    path3group1group0.lineTo(191.53700000000003, 312.53600000000006);
+    path3group1group0.lineTo(426.033, 78.04000000000005);
+    path3group1group0.cubicTo(430.701, 73.37100000000005, 430.701,
+        65.80300000000005, 426.033, 61.13500000000005);
+    path3group1group0.close();
 
-    canvas.drawPath(path5963, paint5963);
+    canvas.drawPath(path3group1group0, paint3group1group0);
+  }
 
-    Paint paint6574 = Paint();
-    paint6574.color = Color(0xFFdddaec).withOpacity(1);
-    var path6574 = Path();
-    path6574.fillType = null;
+  path4group1group0(Canvas canvas, Size size) {
+    Paint paint4group1group0 = Paint();
+    paint4group1group0.color = Color(0xFFdddaec);
+    var path4group1group0 = Path();
+    path4group1group0.moveTo(473.894, 29.694);
+    path4group1group0.cubicTo(471.07800000000003, 28.476, 468.044, 27.648,
+        464.867, 27.291999999999998);
+    path4group1group0.lineTo(422.665, 22.544999999999998);
+    path4group1group0.cubicTo(413.117, 21.467, 403.593, 24.799999999999997,
+        396.8, 31.592999999999996);
+    path4group1group0.lineTo(147.697, 280.695);
+    path4group1group0.lineTo(131.278, 264.276);
+    path4group1group0.lineTo(380.381, 15.173000000000002);
+    path4group1group0.cubicTo(387.174, 8.380000000000003, 396.698,
+        5.047000000000002, 406.24199999999996, 6.121000000000002);
+    path4group1group0.lineTo(448.448, 10.873000000000001);
+    path4group1group0.cubicTo(459.914, 12.164000000000001, 469.48699999999997,
+        19.531, 473.894, 29.694000000000003);
+    path4group1group0.close();
 
-    path6574.moveTo(473.894, 29.694);
-    path6574.cubicTo(471.07800000000003, 28.476, 468.044, 27.648, 464.867,
-        27.291999999999998);
-    path6574.lineTo(422.665, 22.544999999999998);
-    path6574.cubicTo(413.117, 21.467, 403.593, 24.799999999999997, 396.8,
-        31.592999999999996);
-    path6574.lineTo(147.697, 280.695);
-    path6574.lineTo(131.278, 264.276);
-    path6574.lineTo(380.381, 15.173000000000002);
-    path6574.cubicTo(387.174, 8.380000000000003, 396.698, 5.047000000000002,
-        406.24199999999996, 6.121000000000002);
-    path6574.lineTo(448.448, 10.873000000000001);
-    path6574.cubicTo(459.914, 12.164000000000001, 469.48699999999997, 19.531,
-        473.894, 29.694000000000003);
-    path6574.close();
+    canvas.drawPath(path4group1group0, paint4group1group0);
+  }
 
-    canvas.drawPath(path6574, paint6574);
-
-    Paint paint7452 = Paint();
-    paint7452.color = Color(0xFFffd064).withOpacity(1);
-    var path7452 = Path();
-    path7452.fillType = null;
-
-    path7452.moveTo(259.702, 342.528);
-    path7452.cubicTo(
+  path5group1group0(Canvas canvas, Size size) {
+    Paint paint5group1group0 = Paint();
+    paint5group1group0.color = Color(0xFFffd064);
+    var path5group1group0 = Path();
+    path5group1group0.moveTo(259.702, 342.528);
+    path5group1group0.cubicTo(
         251.727, 334.553, 240.666, 331.54900000000004, 230.364, 333.511);
-    path7452.cubicTo(232.326, 323.209, 229.322, 312.148, 221.348, 304.173);
-    path7452.cubicTo(213.37300000000002, 296.198, 202.312, 293.194,
+    path5group1group0.cubicTo(
+        232.326, 323.209, 229.322, 312.148, 221.348, 304.173);
+    path5group1group0.cubicTo(213.37300000000002, 296.198, 202.312, 293.194,
         192.01000000000002, 295.157);
-    path7452.cubicTo(193.972, 284.85499999999996, 190.96800000000002, 273.794,
-        182.99300000000002, 265.81899999999996);
-    path7452.cubicTo(175.01800000000003, 257.84399999999994, 163.95700000000002,
-        254.83999999999997, 153.65500000000003, 256.80299999999994);
-    path7452.cubicTo(155.61700000000002, 246.50099999999995, 152.61300000000003,
-        235.43999999999994, 144.63800000000003, 227.46499999999995);
-    path7452.cubicTo(131.83800000000002, 214.66499999999994, 111.08600000000004,
-        214.66499999999994, 98.28600000000003, 227.46499999999995);
-    path7452.cubicTo(85.48600000000002, 240.26499999999996, 85.48600000000003,
-        261.01699999999994, 98.28600000000003, 273.81699999999995);
-    path7452.cubicTo(106.26100000000002, 281.792, 205.37400000000002, 380.905,
-        213.34900000000005, 388.87999999999994);
-    path7452.cubicTo(226.14900000000006, 401.67999999999995, 246.90100000000004,
-        401.67999999999995, 259.701, 388.87999999999994);
-    path7452.cubicTo(272.502, 376.08099999999996, 272.502, 355.3279999999999,
-        259.702, 342.52799999999996);
-    path7452.close();
+    path5group1group0.cubicTo(193.972, 284.85499999999996, 190.96800000000002,
+        273.794, 182.99300000000002, 265.81899999999996);
+    path5group1group0.cubicTo(
+        175.01800000000003,
+        257.84399999999994,
+        163.95700000000002,
+        254.83999999999997,
+        153.65500000000003,
+        256.80299999999994);
+    path5group1group0.cubicTo(
+        155.61700000000002,
+        246.50099999999995,
+        152.61300000000003,
+        235.43999999999994,
+        144.63800000000003,
+        227.46499999999995);
+    path5group1group0.cubicTo(
+        131.83800000000002,
+        214.66499999999994,
+        111.08600000000004,
+        214.66499999999994,
+        98.28600000000003,
+        227.46499999999995);
+    path5group1group0.cubicTo(
+        85.48600000000002,
+        240.26499999999996,
+        85.48600000000003,
+        261.01699999999994,
+        98.28600000000003,
+        273.81699999999995);
+    path5group1group0.cubicTo(106.26100000000002, 281.792, 205.37400000000002,
+        380.905, 213.34900000000005, 388.87999999999994);
+    path5group1group0.cubicTo(226.14900000000006, 401.67999999999995,
+        246.90100000000004, 401.67999999999995, 259.701, 388.87999999999994);
+    path5group1group0.cubicTo(272.502, 376.08099999999996, 272.502,
+        355.3279999999999, 259.702, 342.52799999999996);
+    path5group1group0.close();
 
-    canvas.drawPath(path7452, paint7452);
+    canvas.drawPath(path5group1group0, paint5group1group0);
+  }
 
-    Paint paint8983 = Paint();
-    paint8983.color = Color(0xFFffc250).withOpacity(1);
-    var path8983 = Path();
-    path8983.fillType = null;
-
-    path8983.moveTo(156.633, 332.171);
-    path8983.lineTo(98.28300000000002, 273.82099999999997);
-    path8983.cubicTo(85.48400000000001, 261.022, 85.48400000000001,
+  path6group1group0(Canvas canvas, Size size) {
+    Paint paint6group1group0 = Paint();
+    paint6group1group0.color = Color(0xFFffc250);
+    var path6group1group0 = Path();
+    path6group1group0.moveTo(156.633, 332.171);
+    path6group1group0.lineTo(98.28300000000002, 273.82099999999997);
+    path6group1group0.cubicTo(85.48400000000001, 261.022, 85.48400000000001,
         240.26899999999998, 98.28700000000002, 227.46599999999998);
-    path8983.cubicTo(111.08600000000001, 214.66699999999997, 131.83900000000003,
-        214.66699999999997, 144.63800000000003, 227.46599999999998);
-    path8983.cubicTo(152.61200000000002, 235.43999999999997, 155.61300000000003,
-        246.50099999999998, 153.65300000000002, 256.80699999999996);
-    path8983.cubicTo(163.955, 254.84299999999996, 175.01600000000002,
+    path6group1group0.cubicTo(
+        111.08600000000001,
+        214.66699999999997,
+        131.83900000000003,
+        214.66699999999997,
+        144.63800000000003,
+        227.46599999999998);
+    path6group1group0.cubicTo(
+        152.61200000000002,
+        235.43999999999997,
+        155.61300000000003,
+        246.50099999999998,
+        153.65300000000002,
+        256.80699999999996);
+    path6group1group0.cubicTo(163.955, 254.84299999999996, 175.01600000000002,
         257.84399999999994, 182.99, 265.818);
-    path8983.cubicTo(186.565, 269.393, 189.144, 273.59499999999997, 190.714,
-        278.07599999999996);
-    path8983.cubicTo(179.194, 274.01699999999994, 165.85, 276.59599999999995,
-        156.63400000000001, 285.81199999999995);
-    path8983.cubicTo(143.83, 298.61499999999995, 143.83, 319.36799999999994,
-        156.633, 332.17099999999994);
-    path8983.close();
+    path6group1group0.cubicTo(186.565, 269.393, 189.144, 273.59499999999997,
+        190.714, 278.07599999999996);
+    path6group1group0.cubicTo(179.194, 274.01699999999994, 165.85,
+        276.59599999999995, 156.63400000000001, 285.81199999999995);
+    path6group1group0.cubicTo(143.83, 298.61499999999995, 143.83,
+        319.36799999999994, 156.633, 332.17099999999994);
+    path6group1group0.close();
 
-    canvas.drawPath(path8983, paint8983);
+    canvas.drawPath(path6group1group0, paint6group1group0);
+  }
 
-    Paint paint10126 = Paint();
-    paint10126.color = Color(0xFFffd064).withOpacity(1);
-    var path10126 = Path();
-    path10126.fillType = null;
-
-    path10126.moveTo(126.94, 468.8);
-    path10126.cubicTo(
+  path7group1group0(Canvas canvas, Size size) {
+    Paint paint7group1group0 = Paint();
+    paint7group1group0.color = Color(0xFFffd064);
+    var path7group1group0 = Path();
+    path7group1group0.moveTo(126.94, 468.8);
+    path7group1group0.cubicTo(
         125.0, 470.74, 122.75, 472.19, 120.36, 473.15000000000003);
-    path10126.cubicTo(
+    path7group1group0.cubicTo(
         76.68, 445.8, 41.84, 405.65000000000003, 21.11, 357.94000000000005);
-    path10126.cubicTo(24.46, 355.62000000000006, 28.369999999999997,
+    path7group1group0.cubicTo(24.46, 355.62000000000006, 28.369999999999997,
         354.46000000000004, 32.28, 354.46000000000004);
-    path10126.cubicTo(
+    path7group1group0.cubicTo(
         37.31, 354.46000000000004, 42.34, 356.38000000000005, 46.18, 360.22);
-    path10126.lineTo(126.94, 440.99);
-    path10126.cubicTo(134.62, 448.67, 134.62, 461.12, 126.94, 468.8);
-    path10126.close();
+    path7group1group0.lineTo(126.94, 440.99);
+    path7group1group0.cubicTo(134.62, 448.67, 134.62, 461.12, 126.94, 468.8);
+    path7group1group0.close();
 
-    canvas.drawPath(path10126, paint10126);
+    canvas.drawPath(path7group1group0, paint7group1group0);
+  }
 
-    Paint paint10868 = Paint();
-    paint10868.color = Color(0xFFffc250).withOpacity(1);
-    var path10868 = Path();
-    path10868.fillType = null;
-
-    path10868.moveTo(81.08, 395.12);
-    path10868.cubicTo(
+  path8group1group0(Canvas canvas, Size size) {
+    Paint paint8group1group0 = Paint();
+    paint8group1group0.color = Color(0xFFffc250);
+    var path8group1group0 = Path();
+    path8group1group0.moveTo(81.08, 395.12);
+    path8group1group0.cubicTo(
         77.24, 391.28000000000003, 72.21, 389.36, 67.17999999999999, 389.36);
-    path10868.cubicTo(62.14999999999999, 389.36, 57.10999999999999,
+    path8group1group0.cubicTo(62.14999999999999, 389.36, 57.10999999999999,
         391.28000000000003, 53.269999999999996, 395.12);
-    path10868.cubicTo(
+    path8group1group0.cubicTo(
         50.42999999999999, 397.96, 48.63999999999999, 401.45, 47.9, 405.12);
-    path10868.cubicTo(37.39, 390.47, 28.38, 374.67, 21.11, 357.94);
-    path10868.cubicTo(24.46, 355.62, 28.369999999999997, 354.46, 32.28, 354.46);
-    path10868.cubicTo(
+    path8group1group0.cubicTo(37.39, 390.47, 28.38, 374.67, 21.11, 357.94);
+    path8group1group0.cubicTo(
+        24.46, 355.62, 28.369999999999997, 354.46, 32.28, 354.46);
+    path8group1group0.cubicTo(
         37.31, 354.46999999999997, 42.34, 356.39, 46.18, 360.21999999999997);
-    path10868.close();
+    path8group1group0.close();
 
-    canvas.drawPath(path10868, paint10868);
+    canvas.drawPath(path8group1group0, paint8group1group0);
+  }
 
-    // element with tag: g not supported
-    final Rect oval11698 =
+  group9group1group0(Canvas canvas, Size size) {
+    circle0group9group1group0(canvas, size);
+    circle1group9group1group0(canvas, size);
+    circle2group9group1group0(canvas, size);
+    circle3group9group1group0(canvas, size);
+  }
+
+  circle0group9group1group0(Canvas canvas, Size size) {
+    final Rect oval0group9group1group0 =
         Rect.fromCircle(center: Offset(238.128, 366.128), radius: 9.311);
-    Paint paint11698 = Paint();
-    // paint11698.color = Color(0xFFnull).withOpacity(1);
-    var path11698 = Path()..addOval(oval11698);
+    Paint paint0group9group1group0 = Paint();
+    var path0group9group1group0 = Path()..addOval(oval0group9group1group0);
+    canvas.drawPath(path0group9group1group0, paint0group9group1group0);
+  }
 
-    canvas.drawPath(path11698, paint11698);
-
-    final Rect oval11997 =
+  circle1group9group1group0(Canvas canvas, Size size) {
+    final Rect oval1group9group1group0 =
         Rect.fromCircle(center: Offset(199.078, 327.077), radius: 9.311);
-    Paint paint11997 = Paint();
-    // paint11997.color = Color(0xFFnull).withOpacity(1);
-    var path11997 = Path()..addOval(oval11997);
+    Paint paint1group9group1group0 = Paint();
+    var path1group9group1group0 = Path()..addOval(oval1group9group1group0);
+    canvas.drawPath(path1group9group1group0, paint1group9group1group0);
+  }
 
-    canvas.drawPath(path11997, paint11997);
-
-    final Rect oval12296 =
+  circle2group9group1group0(Canvas canvas, Size size) {
+    final Rect oval2group9group1group0 =
         Rect.fromCircle(center: Offset(161.288, 289.287), radius: 9.311);
-    Paint paint12296 = Paint();
-    // paint12296.color = Color(0xFFnull).withOpacity(1);
-    var path12296 = Path()..addOval(oval12296);
+    Paint paint2group9group1group0 = Paint();
+    var path2group9group1group0 = Path()..addOval(oval2group9group1group0);
+    canvas.drawPath(path2group9group1group0, paint2group9group1group0);
+  }
 
-    canvas.drawPath(path12296, paint12296);
-
-    final Rect oval12595 =
+  circle3group9group1group0(Canvas canvas, Size size) {
+    final Rect oval3group9group1group0 =
         Rect.fromCircle(center: Offset(120.633, 248.633), radius: 9.311);
-    Paint paint12595 = Paint();
-    // paint12595.color = Color(0xFFnull).withOpacity(1);
-    var path12595 = Path()..addOval(oval12595);
+    Paint paint3group9group1group0 = Paint();
+    var path3group9group1group0 = Path()..addOval(oval3group9group1group0);
+    canvas.drawPath(path3group9group1group0, paint3group9group1group0);
+  }
 
-    canvas.drawPath(path12595, paint12595);
-
-    Paint paint12894 = Paint();
-    paint12894.color = Color(0xFFdd636e).withOpacity(1);
-    var path12894 = Path();
-    path12894.fillType = null;
-
-    path12894.moveTo(396.653, 131.151);
-    path12894.lineTo(396.653, 218.198);
-    path12894.cubicTo(
+  path2group0(Canvas canvas, Size size) {
+    Paint paint2group0 = Paint();
+    paint2group0.color = Color(0xFFdd636e);
+    var path2group0 = Path();
+    path2group0.moveTo(396.653, 131.151);
+    path2group0.lineTo(396.653, 218.198);
+    path2group0.cubicTo(
         396.653, 227.142, 403.97200000000004, 234.738, 412.915, 234.57);
-    path12894.cubicTo(421.58700000000005, 234.408, 428.567, 227.327, 428.567,
+    path2group0.cubicTo(421.58700000000005, 234.408, 428.567, 227.327, 428.567,
         218.61599999999999);
-    path12894.lineTo(428.567, 171.98);
-    path12894.cubicTo(431.38, 176.51999999999998, 436.39300000000003,
+    path2group0.lineTo(428.567, 171.98);
+    path2group0.cubicTo(431.38, 176.51999999999998, 436.39300000000003,
         179.55499999999998, 442.127, 179.55499999999998);
-    path12894.cubicTo(450.94, 179.55499999999998, 458.084, 172.41099999999997,
+    path2group0.cubicTo(450.94, 179.55499999999998, 458.084, 172.41099999999997,
         458.084, 163.59799999999998);
-    path12894.lineTo(458.084, 147.885);
-    path12894.cubicTo(460.892, 152.417, 465.891, 155.44799999999998, 471.611,
+    path2group0.lineTo(458.084, 147.885);
+    path2group0.cubicTo(460.892, 152.417, 465.891, 155.44799999999998, 471.611,
         155.45999999999998);
-    path12894.cubicTo(480.408, 155.47699999999998, 487.59999999999997,
+    path2group0.cubicTo(480.408, 155.47699999999998, 487.59999999999997,
         147.87199999999999, 487.59999999999997, 139.075);
-    path12894.lineTo(487.59999999999997, 68.90599999999999);
-    path12894.cubicTo(487.59999999999997, 54.04099999999999, 470.11299999999994,
-        46.07499999999999, 458.897, 55.83099999999999);
-    path12894.lineTo(412.628, 96.07899999999998);
-    path12894.cubicTo(
+    path2group0.lineTo(487.59999999999997, 68.90599999999999);
+    path2group0.cubicTo(487.59999999999997, 54.04099999999999,
+        470.11299999999994, 46.07499999999999, 458.897, 55.83099999999999);
+    path2group0.lineTo(412.628, 96.07899999999998);
+    path2group0.cubicTo(
         402.47999999999996,
         104.90799999999999,
         396.65299999999996,
         117.69899999999998,
         396.65299999999996,
         131.15099999999998);
-    path12894.close();
+    path2group0.close();
 
-    canvas.drawPath(path12894, paint12894);
+    canvas.drawPath(path2group0, paint2group0);
+  }
 
-    Paint paint14258 = Paint();
-    paint14258.color = Color(0xFFda4a54).withOpacity(1);
-    var path14258 = Path();
-    path14258.fillType = null;
-
-    path14258.moveTo(472.863, 55.831);
-    path14258.lineTo(426.593, 96.081);
-    path14258.cubicTo(416.44300000000004, 104.911, 410.623, 117.70100000000001,
-        410.623, 131.151);
-    path14258.lineTo(410.623, 218.20100000000002);
-    path14258.cubicTo(410.623, 224.56100000000004, 414.323, 230.241, 419.683,
+  path3group0(Canvas canvas, Size size) {
+    Paint paint3group0 = Paint();
+    paint3group0.color = Color(0xFFda4a54);
+    var path3group0 = Path();
+    path3group0.moveTo(472.863, 55.831);
+    path3group0.lineTo(426.593, 96.081);
+    path3group0.cubicTo(416.44300000000004, 104.911, 410.623,
+        117.70100000000001, 410.623, 131.151);
+    path3group0.lineTo(410.623, 218.20100000000002);
+    path3group0.cubicTo(410.623, 224.56100000000004, 414.323, 230.241, 419.683,
         232.92100000000002);
-    path14258.cubicTo(417.633, 233.94100000000003, 415.33299999999997,
+    path3group0.cubicTo(417.633, 233.94100000000003, 415.33299999999997,
         234.53100000000003, 412.913, 234.57100000000003);
-    path14258.cubicTo(403.973, 234.741, 396.653, 227.14100000000002, 396.653,
+    path3group0.cubicTo(403.973, 234.741, 396.653, 227.14100000000002, 396.653,
         218.20100000000002);
-    path14258.lineTo(396.653, 131.151);
-    path14258.cubicTo(396.653, 117.70100000000001, 402.483, 104.91100000000002,
-        412.62300000000005, 96.08100000000002);
-    path14258.lineTo(458.89300000000003, 55.83100000000002);
-    path14258.cubicTo(464.423, 51.021000000000015, 471.483, 50.521000000000015,
-        477.213, 53.03100000000002);
-    path14258.cubicTo(475.70300000000003, 53.71100000000002, 474.233,
+    path3group0.lineTo(396.653, 131.151);
+    path3group0.cubicTo(396.653, 117.70100000000001, 402.483,
+        104.91100000000002, 412.62300000000005, 96.08100000000002);
+    path3group0.lineTo(458.89300000000003, 55.83100000000002);
+    path3group0.cubicTo(464.423, 51.021000000000015, 471.483,
+        50.521000000000015, 477.213, 53.03100000000002);
+    path3group0.cubicTo(475.70300000000003, 53.71100000000002, 474.233,
         54.64100000000002, 472.863, 55.83100000000002);
-    path14258.close();
+    path3group0.close();
 
-    canvas.drawPath(path14258, paint14258);
+    canvas.drawPath(path3group0, paint3group0);
+  }
 
-    Paint paint15448 = Paint();
-    paint15448.color = Color(0xFFdd636e).withOpacity(1);
-    var path15448 = Path();
-    path15448.fillType = null;
-
-    path15448.moveTo(330.527, 196.051);
-    path15448.lineTo(308.19399999999996, 215.47799999999998);
-    path15448.cubicTo(
+  path4group0(Canvas canvas, Size size) {
+    Paint paint4group0 = Paint();
+    paint4group0.color = Color(0xFFdd636e);
+    var path4group0 = Path();
+    path4group0.moveTo(330.527, 196.051);
+    path4group0.lineTo(308.19399999999996, 215.47799999999998);
+    path4group0.cubicTo(
         298.04499999999996,
         224.30599999999998,
         292.21799999999996,
         237.09799999999998,
         292.21799999999996,
         250.54899999999998);
-    path15448.lineTo(292.21799999999996, 303.29499999999996);
-    path15448.cubicTo(
+    path4group0.lineTo(292.21799999999996, 303.29499999999996);
+    path4group0.cubicTo(
         292.21799999999996,
         311.88699999999994,
         298.82099999999997,
         319.28099999999995,
         307.40399999999994,
         319.68499999999995);
-    path15448.cubicTo(316.5679999999999, 320.11599999999993, 324.13199999999995,
-        312.81499999999994, 324.13199999999995, 303.7459999999999);
-    path15448.lineTo(324.13199999999995, 257.1099999999999);
-    path15448.cubicTo(326.94499999999994, 261.6499999999999, 331.95799999999997,
-        264.6849999999999, 337.69199999999995, 264.6849999999999);
-    path15448.cubicTo(346.50499999999994, 264.6849999999999, 353.64899999999994,
-        257.5409999999999, 353.64899999999994, 248.7279999999999);
-    path15448.lineTo(354.22299999999996, 206.9539999999999);
-    path15448.cubicTo(354.31699999999995, 194.6309999999999, 339.82499999999993,
-        187.9629999999999, 330.52699999999993, 196.0509999999999);
-    path15448.close();
+    path4group0.cubicTo(
+        316.5679999999999,
+        320.11599999999993,
+        324.13199999999995,
+        312.81499999999994,
+        324.13199999999995,
+        303.7459999999999);
+    path4group0.lineTo(324.13199999999995, 257.1099999999999);
+    path4group0.cubicTo(
+        326.94499999999994,
+        261.6499999999999,
+        331.95799999999997,
+        264.6849999999999,
+        337.69199999999995,
+        264.6849999999999);
+    path4group0.cubicTo(
+        346.50499999999994,
+        264.6849999999999,
+        353.64899999999994,
+        257.5409999999999,
+        353.64899999999994,
+        248.7279999999999);
+    path4group0.lineTo(354.22299999999996, 206.9539999999999);
+    path4group0.cubicTo(
+        354.31699999999995,
+        194.6309999999999,
+        339.82499999999993,
+        187.9629999999999,
+        330.52699999999993,
+        196.0509999999999);
+    path4group0.close();
 
-    canvas.drawPath(path15448, paint15448);
+    canvas.drawPath(path4group0, paint4group0);
+  }
 
-    Paint paint16780 = Paint();
-    paint16780.color = Color(0xFFda4a54).withOpacity(1);
-    var path16780 = Path();
-    path16780.fillType = null;
-
-    path16780.moveTo(343.829, 196.049);
-    path16780.lineTo(321.499, 215.479);
-    path16780.cubicTo(311.34900000000005, 224.30900000000003, 305.519,
+  path5group0(Canvas canvas, Size size) {
+    Paint paint5group0 = Paint();
+    paint5group0.color = Color(0xFFda4a54);
+    var path5group0 = Path();
+    path5group0.moveTo(343.829, 196.049);
+    path5group0.lineTo(321.499, 215.479);
+    path5group0.cubicTo(311.34900000000005, 224.30900000000003, 305.519,
         237.09900000000002, 305.519, 250.549);
-    path16780.lineTo(305.519, 303.299);
-    path16780.cubicTo(305.519, 309.80899999999997, 309.309, 315.62899999999996,
-        314.879, 318.239);
-    path16780.cubicTo(312.629, 319.279, 310.079, 319.81899999999996, 307.399,
+    path5group0.lineTo(305.519, 303.299);
+    path5group0.cubicTo(305.519, 309.80899999999997, 309.309,
+        315.62899999999996, 314.879, 318.239);
+    path5group0.cubicTo(312.629, 319.279, 310.079, 319.81899999999996, 307.399,
         319.68899999999996);
-    path16780.cubicTo(298.819, 319.27899999999994, 292.219, 311.88899999999995,
-        292.219, 303.299);
-    path16780.lineTo(292.219, 250.54899999999998);
-    path16780.cubicTo(292.219, 237.099, 298.039, 224.30899999999997, 308.189,
+    path5group0.cubicTo(298.819, 319.27899999999994, 292.219,
+        311.88899999999995, 292.219, 303.299);
+    path5group0.lineTo(292.219, 250.54899999999998);
+    path5group0.cubicTo(292.219, 237.099, 298.039, 224.30899999999997, 308.189,
         215.47899999999998);
-    path16780.lineTo(330.529, 196.04899999999998);
-    path16780.cubicTo(
+    path5group0.lineTo(330.529, 196.04899999999998);
+    path5group0.cubicTo(
         335.389, 191.819, 341.669, 191.629, 346.539, 194.16899999999998);
-    path16780.cubicTo(345.599, 194.66899999999998, 344.68899999999996,
+    path5group0.cubicTo(345.599, 194.66899999999998, 344.68899999999996,
         195.29899999999998, 343.829, 196.04899999999998);
-    path16780.close();
+    path5group0.close();
 
-    canvas.drawPath(path16780, paint16780);
+    canvas.drawPath(path5group0, paint5group0);
+  }
 
-    // element with tag: g not supported
-    Paint paint17949 = Paint();
-    paint17949.color = Color(0xFFdd636e).withOpacity(1);
-    var path17949 = Path();
-    path17949.fillType = null;
+  group6group0(Canvas canvas, Size size) {
+    path0group6group0(canvas, size);
+    path1group6group0(canvas, size);
+  }
 
-    path17949.moveTo(431.853, 272.057);
-    path17949.lineTo(416.37, 256.574);
-    path17949.lineTo(400.887, 272.057);
-    path17949.cubicTo(
+  path0group6group0(Canvas canvas, Size size) {
+    Paint paint0group6group0 = Paint();
+    paint0group6group0.color = Color(0xFFdd636e);
+    var path0group6group0 = Path();
+    path0group6group0.moveTo(431.853, 272.057);
+    path0group6group0.lineTo(416.37, 256.574);
+    path0group6group0.lineTo(400.887, 272.057);
+    path0group6group0.cubicTo(
         392.336, 280.608, 392.336, 294.47200000000004, 400.887, 303.023);
-    path17949.cubicTo(409.438, 311.574, 423.302, 311.574, 431.853, 303.023);
-    path17949.cubicTo(
+    path0group6group0.cubicTo(
+        409.438, 311.574, 423.302, 311.574, 431.853, 303.023);
+    path0group6group0.cubicTo(
         440.404, 294.47200000000004, 440.404, 280.608, 431.853, 272.057);
-    path17949.close();
+    path0group6group0.close();
 
-    canvas.drawPath(path17949, paint17949);
+    canvas.drawPath(path0group6group0, paint0group6group0);
+  }
 
-    Paint paint18540 = Paint();
-    paint18540.color = Color(0xFFda4a54).withOpacity(1);
-    var path18540 = Path();
-    path18540.fillType = null;
-
-    path18540.moveTo(416.377, 309.433);
-    path18540.cubicTo(
+  path1group6group0(Canvas canvas, Size size) {
+    Paint paint1group6group0 = Paint();
+    paint1group6group0.color = Color(0xFFda4a54);
+    var path1group6group0 = Path();
+    path1group6group0.moveTo(416.377, 309.433);
+    path1group6group0.cubicTo(
         410.767, 309.433, 405.157, 307.303, 400.887, 303.02299999999997);
-    path18540.cubicTo(392.337, 294.46299999999997, 392.337, 280.60299999999995,
-        400.887, 272.053);
-    path18540.lineTo(416.367, 256.573);
-    path18540.lineTo(410.867, 272.053);
-    path18540.cubicTo(407.827, 280.603, 407.827, 294.463, 410.867, 303.023);
-    path18540.cubicTo(412.387, 307.303, 414.377, 309.43300000000005, 416.377,
-        309.43300000000005);
-    path18540.close();
+    path1group6group0.cubicTo(392.337, 294.46299999999997, 392.337,
+        280.60299999999995, 400.887, 272.053);
+    path1group6group0.lineTo(416.367, 256.573);
+    path1group6group0.lineTo(410.867, 272.053);
+    path1group6group0.cubicTo(
+        407.827, 280.603, 407.827, 294.463, 410.867, 303.023);
+    path1group6group0.cubicTo(412.387, 307.303, 414.377, 309.43300000000005,
+        416.377, 309.43300000000005);
+    path1group6group0.close();
 
-    canvas.drawPath(path18540, paint18540);
+    canvas.drawPath(path1group6group0, paint1group6group0);
+  }
 
-    // element with tag: g not supported
-    Paint paint19275 = Paint();
-    paint19275.color = Color(0xFFdd636e).withOpacity(1);
-    var path19275 = Path();
-    path19275.fillType = null;
+  group7group0(Canvas canvas, Size size) {
+    path0group7group0(canvas, size);
+    path1group7group0(canvas, size);
+  }
 
-    path19275.moveTo(335.416, 418.375);
-    path19275.lineTo(319.933, 402.892);
-    path19275.lineTo(304.45, 418.375);
-    path19275.cubicTo(295.899, 426.926, 295.899, 440.79, 304.45, 449.341);
-    path19275.cubicTo(313.001, 457.892, 326.865, 457.892, 335.416, 449.341);
-    path19275.cubicTo(343.967, 440.79, 343.967, 426.926, 335.416, 418.375);
-    path19275.close();
+  path0group7group0(Canvas canvas, Size size) {
+    Paint paint0group7group0 = Paint();
+    paint0group7group0.color = Color(0xFFdd636e);
+    var path0group7group0 = Path();
+    path0group7group0.moveTo(335.416, 418.375);
+    path0group7group0.lineTo(319.933, 402.892);
+    path0group7group0.lineTo(304.45, 418.375);
+    path0group7group0.cubicTo(
+        295.899, 426.926, 295.899, 440.79, 304.45, 449.341);
+    path0group7group0.cubicTo(
+        313.001, 457.892, 326.865, 457.892, 335.416, 449.341);
+    path0group7group0.cubicTo(
+        343.967, 440.79, 343.967, 426.926, 335.416, 418.375);
+    path0group7group0.close();
 
-    canvas.drawPath(path19275, paint19275);
+    canvas.drawPath(path0group7group0, paint0group7group0);
+  }
 
-    Paint paint19841 = Paint();
-    paint19841.color = Color(0xFFda4a54).withOpacity(1);
-    var path19841 = Path();
-    path19841.fillType = null;
-
-    path19841.moveTo(319.94, 455.751);
-    path19841.cubicTo(314.33, 455.751, 308.71999999999997, 453.621, 304.45,
-        449.34099999999995);
-    path19841.cubicTo(
+  path1group7group0(Canvas canvas, Size size) {
+    Paint paint1group7group0 = Paint();
+    paint1group7group0.color = Color(0xFFda4a54);
+    var path1group7group0 = Path();
+    path1group7group0.moveTo(319.94, 455.751);
+    path1group7group0.cubicTo(314.33, 455.751, 308.71999999999997, 453.621,
+        304.45, 449.34099999999995);
+    path1group7group0.cubicTo(
         295.9, 440.78099999999995, 295.9, 426.92099999999994, 304.45, 418.371);
-    path19841.lineTo(319.93, 402.89099999999996);
-    path19841.lineTo(314.43, 418.371);
-    path19841.cubicTo(311.39, 426.921, 311.39, 440.781, 314.43, 449.341);
-    path19841.cubicTo(315.95, 453.621, 317.94, 455.75100000000003, 319.94,
-        455.75100000000003);
-    path19841.close();
+    path1group7group0.lineTo(319.93, 402.89099999999996);
+    path1group7group0.lineTo(314.43, 418.371);
+    path1group7group0.cubicTo(
+        311.39, 426.921, 311.39, 440.781, 314.43, 449.341);
+    path1group7group0.cubicTo(315.95, 453.621, 317.94, 455.75100000000003,
+        319.94, 455.75100000000003);
+    path1group7group0.close();
 
-    canvas.drawPath(path19841, paint19841);
+    canvas.drawPath(path1group7group0, paint1group7group0);
   }
 
   @override
-  bool shouldRepaint(_SwordSvg oldDelegate) => false;
+  bool shouldRepaint(_SwordSvgPainter oldDelegate) => false;
+}
+
+class _SwordSvg extends StatelessWidget {
+  final Widget child;
+  final Color color;
+
+  const _SwordSvg({
+    Key key,
+    this.child,
+    this.color,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return buildFiltered(
+      context,
+      child: AspectRatio(
+        aspectRatio: 512 / 512,
+        child: CustomPaint(
+          painter: _SwordSvgPainter(),
+          child: child,
+        ),
+      ),
+    );
+  }
+
+  @override
+  Widget buildFiltered(BuildContext context, {Widget child}) {
+    if (color != null) {
+      return ColorFiltered(
+        colorFilter: ColorFilter.mode(color, BlendMode.srcIn),
+        child: child,
+      );
+    }
+    return child;
+  }
 }
