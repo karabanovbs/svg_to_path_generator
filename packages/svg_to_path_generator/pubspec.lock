@@ -167,6 +167,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_svg:
+    dependency: "direct main"
+    description:
+      path: "/Users/boriskarabanov/dev/projects/main/flutter_svg"
+      relative: false
+    source: path
+    version: "0.20.0-nullsafety.3"
   glob:
     dependency: transitive
     description:
@@ -279,6 +286,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0-nullsafety.3"
+  path_drawing:
+    dependency: transitive
+    description:
+      name: path_drawing
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.5.0-nullsafety.0"
   path_parsing:
     dependency: "direct main"
     description:
@@ -392,12 +406,10 @@ packages:
   svg_to_path_annotation:
     dependency: "direct main"
     description:
-      path: "packages/svg_to_path_annotation"
-      ref: "0.0.2"
-      resolved-ref: b0f96f833255a3cc36ec2a328187fede208ae3d4
-      url: "https://github.com/karabanovbs/svg_to_path_generator"
-    source: git
-    version: "0.0.2"
+      path: "../svg_to_path_annotation"
+      relative: true
+    source: path
+    version: "0.0.1"
   term_glyph:
     dependency: transitive
     description:
@@ -456,3 +468,4 @@ packages:
     version: "2.2.1"
 sdks:
   dart: ">=2.12.0-0.0 <3.0.0"
+  flutter: ">=1.24.0-7.0 <2.0.0"
