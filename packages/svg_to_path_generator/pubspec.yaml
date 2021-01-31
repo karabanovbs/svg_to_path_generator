@@ -1,6 +1,6 @@
 name: svg_to_path_generator
 description: Svg to path generator
-version: 0.0.2+1
+version: 0.0.2+2
 author:
 homepage:
 
@@ -18,6 +18,6 @@ dependencies:
     git:
       url: https://github.com/karabanovbs/svg_to_path_generator
       path: packages/svg_to_path_annotation
-      ref: 0.0.2
+      ref: 0.0.2+2
 
 dev_dependencies:

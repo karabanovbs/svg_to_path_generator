@@ -13,7 +13,7 @@ dependencies:
     git:
       url: https://github.com/karabanovbs/svg_to_path_generator
       path: packages/svg_to_path_annotation
-      ref: 0.0.2
+      ref: 0.0.2+2
 
 dev_dependencies:
   flutter_test:
@@ -25,7 +25,7 @@ dev_dependencies:
     git:
       url: https://github.com/karabanovbs/svg_to_path_generator
       path: packages/svg_to_path_generator
-      ref: 0.0.2
+      ref: 0.0.2+2
 
 flutter:
   uses-material-design: true
