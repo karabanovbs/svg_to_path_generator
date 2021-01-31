@@ -35,7 +35,7 @@ packages:
       name: build
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.6.0"
+    version: "1.6.1"
   build_config:
     dependency: transitive
     description:
@@ -63,7 +63,7 @@ packages:
       name: build_runner
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.10.11"
+    version: "1.11.0"
   build_runner_core:
     dependency: transitive
     description:
@@ -85,13 +85,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "7.1.0"
-  characters:
-    dependency: transitive
-    description:
-      name: characters
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.1.0-nullsafety.5"
   charcode:
     dependency: transitive
     description:
@@ -162,18 +155,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.10.11"
-  flutter:
-    dependency: transitive
-    description: flutter
-    source: sdk
-    version: "0.0.0"
-  flutter_svg:
-    dependency: "direct main"
-    description:
-      path: "/Users/boriskarabanov/dev/projects/main/flutter_svg"
-      relative: false
-    source: path
-    version: "0.20.0-nullsafety.3"
   glob:
     dependency: transitive
     description:
@@ -286,13 +267,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0-nullsafety.3"
-  path_drawing:
-    dependency: transitive
-    description:
-      name: path_drawing
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.5.0-nullsafety.0"
   path_parsing:
     dependency: "direct main"
     description:
@@ -356,11 +330,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.3"
-  sky_engine:
-    dependency: transitive
-    description: flutter
-    source: sdk
-    version: "0.0.99"
   source_gen:
     dependency: "direct main"
     description:
@@ -406,9 +375,11 @@ packages:
   svg_to_path_annotation:
     dependency: "direct main"
     description:
-      path: "../svg_to_path_annotation"
-      relative: true
-    source: path
+      path: "packages/svg_to_path_annotation"
+      ref: HEAD
+      resolved-ref: "3df91dcf0fab7a4a07a21515cf8b2a5fe9f0f0bb"
+      url: "https://github.com/karabanovbs/svg_to_path_generator"
+    source: git
     version: "0.0.1"
   term_glyph:
     dependency: transitive
@@ -468,4 +439,3 @@ packages:
     version: "2.2.1"
 sdks:
   dart: ">=2.12.0-0.0 <3.0.0"
-  flutter: ">=1.24.0-7.0 <2.0.0"

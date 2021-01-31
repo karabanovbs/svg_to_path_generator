@@ -6,7 +6,6 @@ targets:
 
 builders:
   svg_to_path_generator:
-    target: ":svg_to_path_generator"
     import: "package:svg_to_path_generator/builder.dart"
     builder_factories: ["svgToPathGen"]
     build_extensions: {".dart": [".svg_to_path_generator.g.part"]}
