@@ -699,37 +699,13 @@ class _SwordSvgPainter extends CustomPainter {
 }
 
 class _SwordSvg extends StatelessWidget {
-  final Widget child;
-  final Color color;
-
-  const _SwordSvg({
-    Key key,
-    this.child,
-    this.color,
-  }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
-    return buildFiltered(
-      context,
-      child: AspectRatio(
-        aspectRatio: 512 / 512,
-        child: CustomPaint(
-          painter: _SwordSvgPainter(),
-          child: child,
-        ),
+    return AspectRatio(
+      aspectRatio: 512 / 512,
+      child: CustomPaint(
+        painter: _SwordSvgPainter(),
       ),
     );
-  }
-
-  @override
-  Widget buildFiltered(BuildContext context, {Widget child}) {
-    if (color != null) {
-      return ColorFiltered(
-        colorFilter: ColorFilter.mode(color, BlendMode.srcIn),
-        child: child,
-      );
-    }
-    return child;
   }
 }

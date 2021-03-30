@@ -89,37 +89,13 @@ class _CardSvgPainter extends CustomPainter {
 }
 
 class _CardSvg extends StatelessWidget {
-  final Widget child;
-  final Color color;
-
-  const _CardSvg({
-    Key key,
-    this.child,
-    this.color,
-  }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
-    return buildFiltered(
-      context,
-      child: AspectRatio(
-        aspectRatio: 24 / 24,
-        child: CustomPaint(
-          painter: _CardSvgPainter(),
-          child: child,
-        ),
+    return AspectRatio(
+      aspectRatio: 24 / 24,
+      child: CustomPaint(
+        painter: _CardSvgPainter(),
       ),
     );
-  }
-
-  @override
-  Widget buildFiltered(BuildContext context, {Widget child}) {
-    if (color != null) {
-      return ColorFiltered(
-        colorFilter: ColorFilter.mode(color, BlendMode.srcIn),
-        child: child,
-      );
-    }
-    return child;
   }
 }
