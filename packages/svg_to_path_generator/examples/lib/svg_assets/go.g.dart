@@ -75,37 +75,13 @@ class _GoSvgPainter extends CustomPainter {
 }
 
 class _GoSvg extends StatelessWidget {
-  final Widget child;
-  final Color color;
-
-  const _GoSvg({
-    Key key,
-    this.child,
-    this.color,
-  }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
-    return buildFiltered(
-      context,
-      child: AspectRatio(
-        aspectRatio: 24 / 24,
-        child: CustomPaint(
-          painter: _GoSvgPainter(),
-          child: child,
-        ),
+    return AspectRatio(
+      aspectRatio: 24 / 24,
+      child: CustomPaint(
+        painter: _GoSvgPainter(),
       ),
     );
-  }
-
-  @override
-  Widget buildFiltered(BuildContext context, {Widget child}) {
-    if (color != null) {
-      return ColorFiltered(
-        colorFilter: ColorFilter.mode(color, BlendMode.srcIn),
-        child: child,
-      );
-    }
-    return child;
   }
 }

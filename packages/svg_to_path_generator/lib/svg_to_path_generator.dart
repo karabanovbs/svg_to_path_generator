@@ -59,16 +59,7 @@ class SvgToPathGenerator extends GeneratorForAnnotation<SvgSource> {
     
     
           
-    class _${classElement.name} extends StatelessWidget {
-        final Widget child;
-        final Color color;
-      
-        const _${classElement.name}({
-          Key key,
-          this.child, 
-          this.color, 
-        }) : super(key: key);
-      
+    class _${classElement.name} extends StatelessWidget {     
         @override
         Widget build(BuildContext context) {
           return AspectRatio(
@@ -76,7 +67,6 @@ class SvgToPathGenerator extends GeneratorForAnnotation<SvgSource> {
               child: CustomPaint(
                 painter: _${classElement.name}Painter(
                 ),
-                child: child,
               ),
             );
         }
