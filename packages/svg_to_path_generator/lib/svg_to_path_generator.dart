@@ -41,6 +41,7 @@ class SvgToPathGenerator extends GeneratorForAnnotation<SvgSource> {
     ${'// ' + svgStr.toString().replaceAll('\n', '\n // ')}
         
     class _${classElement.name}Painter extends CustomPainter {
+      const _${classElement.name}Painter();
     
       final originalHeight = $originalHeight;
       final originalWidth = $originalWidth;
@@ -59,13 +60,15 @@ class SvgToPathGenerator extends GeneratorForAnnotation<SvgSource> {
     
     
           
-    class _${classElement.name} extends StatelessWidget {     
+    class _${classElement.name} extends StatelessWidget {  
+        const _${classElement.name}();
+           
         @override
         Widget build(BuildContext context) {
-          return AspectRatio(
+          return const AspectRatio(
               aspectRatio: $originalWidth / $originalHeight,
-              child: CustomPaint(
-                painter: _${classElement.name}Painter(
+              child: const CustomPaint(
+                painter: const _${classElement.name}Painter(
                 ),
               ),
             );
