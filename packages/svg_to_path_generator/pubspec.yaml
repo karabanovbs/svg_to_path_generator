@@ -1,24 +1,20 @@
 name: svg_to_path_generator
 description: Svg to path generator
-version: 1.0.1
-author:
-homepage:
+version: 1.0.1+2
+homepage: https://github.com/karabanovbs/svg_to_path_generator/tree/master/packages/svg_to_path_generator
 
 environment:
   sdk: '>=2.12.0-0 <3.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
-  build: ^2.0.0
-  source_gen: ^1.0.0
-  xml2json: ^5.0.0
-  xml: ^5.0.2
-  path_parsing: ^0.1.4
-  svg_to_path_annotation:
-    git:
-      url: https://github.com/karabanovbs/svg_to_path_generator
-      path: packages/svg_to_path_annotation
-      ref: 0.0.2+4
+  build: ^2.0.2
+  source_gen: ^1.0.1
+  xml2json: ^5.2.0
+  xml: ^5.1.1
+  path_parsing: ^0.2.1
+  analyzer: ^1.7.1
+  svg_to_path_annotation: ^1.0.0
 
 dev_dependencies:
   build_runner: ^1.12.2

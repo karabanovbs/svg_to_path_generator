@@ -1,0 +1,23 @@
+name: examples
+description: svg_to_path_generator_example
+version: 1.0.0+1
+homepage: https://github.com/karabanovbs/svg_to_path_generator/tree/master/packages/svg_to_path_generator
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.3
+  svg_to_path_annotation: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.0.3
+  svg_to_path_generator:
+    path: ../../svg_to_path_generator
+
+flutter:
+  uses-material-design: true
