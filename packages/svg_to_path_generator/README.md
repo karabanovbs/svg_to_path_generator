@@ -1,14 +1,51 @@
-# svg_to_path_generator
-
-Svg to path generator
-
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+This package uses to generate Widget with Custom Painter inside from svg source.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+# Installation
+
+```yaml
+dependencies:
+  ...
+  svg_to_path_annotation: <latest_version>
+
+dev_dependencies:
+ ...
+  build_runner: <latest_version>
+  svg_to_path_generator: <latest_version>
+```
+
+# examples
+
+Annotate come class by `@SvgSource('<path-to-svg>')`:
+```dart
+import 'package:svg_to_path_annotation/svg_to_path_annotation.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/rendering.dart';
+
+part 'card.g.dart';
+
+@SvgSource('assets/Card.svg')
+class CardSvg extends _CardSvg {
+}
+
+```
+Then run:
+`flutter pub run build_runner build --delete-conflicting-outputs`
+
+Use generated widget:
+```dart
+@override
+Widget build(BuildContext context) {
+  return Scaffold(
+    backgroundColor: Color(0xFF555555),
+    body: Center(
+      child: Container(
+        height: 500,
+        width: 500,
+        child: CardSvg(),
+      ),
+    ),
+  );
+}
+```

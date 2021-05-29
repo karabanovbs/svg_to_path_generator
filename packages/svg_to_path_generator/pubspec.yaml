@@ -1,6 +1,6 @@
 name: svg_to_path_generator
 description: Svg to path generator
-version: 1.0.1+1
+version: 1.0.1+2
 homepage: https://github.com/karabanovbs/svg_to_path_generator/tree/master/packages/svg_to_path_generator
 
 environment:
