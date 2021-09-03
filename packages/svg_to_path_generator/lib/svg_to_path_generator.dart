@@ -61,7 +61,7 @@ class SvgToPathGenerator extends GeneratorForAnnotation<SvgSource> {
     
           
     class _${classElement.name} extends StatelessWidget {  
-        const _${classElement.name}();
+        const _${classElement.name}({Key? key}) : super(key: key);
            
         @override
         Widget build(BuildContext context) {
